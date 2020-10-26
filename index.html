@@ -175,7 +175,7 @@
 						<div class="col-lg-3 col-md-6">
 							<div class="single-service">
 								<img class="img-fluid" src="img/s2.jpg" alt="">
-								<a href="#"><h4>Huge Varieties frames and lens </h4></a>
+								<a href="#"><h4>Huge Varieties of frames and lens </h4></a>
 								<p>
 									We have over 1000 styles of eyewear. From big brands like RayBan and Oakley to the best in house brands. From sunglasses to reading glasses to contact lenses, we make everything that can help you see this beautiful world with more clarity.
 									We provide varieties eyewear for men, women, kids, for all humans of the world.
@@ -468,7 +468,7 @@ Manage patient records as effectively and efficiently as possible, including dem
 								Book an <br> 
 								Appoinment
 							</h1>
-		                    <form class="appoinment-form" id="myForm" action="#">
+		                    <form class="appoinment-form" id="myForm" method="POST" action="mail.php">
 		                        <div class="row">
 		                            <div class="col-lg-12 d-flex flex-column">
 		                                <input name="patient-name" placeholder="Patient Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Patient Name'" class="form-control mt-20" required="" type="text">
@@ -490,7 +490,7 @@ Manage patient records as effectively and efficiently as possible, including dem
 		                            </div>
 
 		                            <div class="col-lg-12 d-flex justify-content-end send-btn">
-		                                <button class="primary-btn primary mt-20 text-uppercase ">Confirm booking</button>
+										<input class="primary-btn primary mt-20 text-uppercase " type="submit">
 		                            </div>
 
 		                            <div class="alert-msg"></div>
